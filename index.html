@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Piyush Raj - Portfolio</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav id="navbar">
+        <div class="container">
+            <div class="nav-container">
+                <div class="logo">Piyush Raj</div>
+                <ul class="nav-links">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#writing">Writing</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <div class="hero-text">
+                    <h1>Piyush Raj</h1>
+                    <p class="subtitle">Aspiring Data Scientist | AI/ML Enthusiast | Cybersecurity Learner</p>
+                    <p class="tagline">"Building intelligent solutions with code and curiosity."</p>
+                    <a href="#about" class="btn btn-primary">
+                        <i class="fas fa-user"></i>
+                        Learn More About Me
+                    </a>
+                </div>
+                <div class="hero-image">
+                    <div class="profile-image"></div>
+                </div>
+            </div>
+            <div class="scroll-indicator" onclick="scrollToSection('about')">
+                <i class="fas fa-chevron-down"></i>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>
+                        Hello! I'm Piyush Raj, a passionate first-year college student driven by curiosity and a love for technology. My journey into the world of programming began with a simple question: "How can we make machines think?"
+                    </p>
+                    <p>
+                        I'm a first-year student who knows the basics of programming and can code in Java, Python, C, and C++. Every day brings new learning opportunities, and I embrace each challenge as a stepping stone toward becoming a skilled data scientist and cybersecurity professional.
+                    </p>
+                    <p>
+                        When I'm not coding, you'll find me exploring the latest AI research papers, experimenting with new algorithms, or diving deep into cybersecurity concepts. I believe that technology should be used to solve real-world problems and make a positive impact on society.
+                    </p>
+                </div>
+                <div class="skills-grid">
+                    <div class="skill-card">
+                        <i class="fab fa-python"></i>
+                        <h3>Python Programming</h3>
+                        <p>Data analysis, scripting, and basic ML implementations</p>
+                    </div>
+                    <div class="skill-card">
+                        <i class="fas fa-code"></i>
+                        <h3>C/C++ Development</h3>
+                        <p>Data structures, algorithms, and system programming</p>
+                    </div>
+                    <div class="skill-card">
+                        <i class="fab fa-java"></i>
+                        <h3>Java Programming</h3>
+                        <p>Object-oriented programming and application development</p>
+                    </div>
+                    <div class="skill-card">
+                        <i class="fab fa-linux"></i>
+                        <h3>Linux Familiarity</h3>
+                        <p>Command line operations and system administration basics</p>
+                    </div>
+                    <div class="skill-card">
+                        <i class="fas fa-shield-alt"></i>
+                        <h3>Cybersecurity Basics</h3>
+                        <p>Network security fundamentals and ethical hacking concepts</p>
+                    </div>
+                    <div class="skill-card">
+                        <i class="fas fa-chart-bar"></i>
+                        <h3>Data Analysis</h3>
+                        <p>Basic statistical analysis and data visualization</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2 class="section-title">My Projects</h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-image">
+                        <i class="fas fa-calculator"></i>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">Smart Calculator</h3>
+                        <p class="project-description">
+                            A Python-based calculator with advanced mathematical functions and a clean GUI. Features include scientific calculations, history tracking, and error handling.
+                        </p>
+                        <div class="project-tags">
+                            <span class="tag">Python</span>
+                            <span class="tag">Tkinter</span>
+                            <span class="tag">Math</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" class="btn btn-primary">
+                                <i class="fab fa-github"></i>
+                                View Code
+                            </a>
+                            <a href="#" class="btn btn-secondary">
+                                <i class="fas fa-external-link-alt"></i>
+                                Live Demo
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-image">
+                        <i class="fas fa-lock"></i>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">Password Security Checker</h3>
+                        <p class="project-description">
+                            A cybersecurity tool that analyzes password strength, checks against common passwords, and suggests improvements for better security.
+                        </p>
+                        <div class="project-tags">
+                            <span class="tag">Python</span>
+                            <span class="tag">Cybersecurity</span>
+                            <span class="tag">CLI Tool</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" class="btn btn-primary">
+                                <i class="fab fa-github"></i>
+                                View Code
+                            </a>
+                            <a href="#" class="btn btn-secondary">
+                                <i class="fas fa-external-link-alt"></i>
+                                Try It Out
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-image">
+                        <i class="fas fa-chart-line"></i>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">Data Visualization Dashboard</h3>
+                        <p class="project-description">
+                            An interactive web dashboard built with Python and Streamlit for visualizing student performance data with various chart types and filters.
+                        </p>
+                        <div class="project-tags">
+                            <span class="tag">Python</span>
+                            <span class="tag">Streamlit</span>
+                            <span class="tag">Data Viz</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" class="btn btn-primary">
+                                <i class="fab fa-github"></i>
+                                View Code
+                            </a>
+                            <a href="#" class="btn btn-secondary">
+                                <i class="fas fa-external-link-alt"></i>
+                                Live Demo
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-image">
+                        <i class="fas fa-gamepad"></i>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">Terminal-Based Game</h3>
+                        <p class="project-description">
+                            A fun text-based adventure game written in C++ that demonstrates object-oriented programming concepts and basic game logic.
+                        </p>
+                        <div class="project-tags">
+                            <span class="tag">C++</span>
+                            <span class="tag">Game Dev</span>
+                            <span class="tag">OOP</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" class="btn btn-primary">
+                                <i class="fab fa-github"></i>
+                                View Code
+                            </a>
+                            <a href="#" class="btn btn-secondary">
+                                <i class="fas fa-play"></i>
+                                Play Game
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-image">
+                        <i class="fas fa-brain"></i>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">ML Concept Explorer</h3>
+                        <p class="project-description">
+                            A collection of Jupyter notebooks exploring basic machine learning concepts with hands-on implementations and visualizations.
+                        </p>
+                        <div class="project-tags">
+                            <span class="tag">Python</span>
+                            <span class="tag">ML</span>
+                            <span class="tag">Jupyter</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" class="btn btn-primary">
+                                <i class="fab fa-github"></i>
+                                View Code
+                            </a>
+                            <a href="#" class="btn btn-secondary">
+                                <i class="fas fa-book"></i>
+                                Read Notes
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Writing Section -->
+    <section id="writing" class="writing">
+        <div class="container">
+            <h2 class="section-title">Thoughts & Reflections</h2>
+            <div class="writing-controls">
+                <span>Regular Mode</span>
+                <label class="toggle-switch">
+                    <input type="checkbox" id="poeticToggle">
+                    <span class="slider"></span>
+                </label>
+                <span>Poetic Mode</span>
+            </div>
+            <div class="writing-grid">
+                <div class="writing-card">
+                    <div class="writing-date">January 15, 2025</div>
+                    <h3 class="writing-title">The Journey Begins</h3>
+                    <p class="writing-content">
+                        Starting college feels like standing at the edge of an infinite ocean of knowledge. Every programming concept I learn opens up ten more questions. Today I realized that the beauty of technology isn't just in the code we write, but in the problems we solve and the lives we touch.
+                    </p>
+                </div>
+
+                <div class="writing-card">
+                    <div class="writing-date">December 28, 2024</div>
+                    <h3 class="writing-title">First Lines of Code</h3>
+                    <p class="writing-content">
+                        There's something magical about seeing "Hello, World!" appear on the screen for the first time. It's not just text—it's a conversation between human thought and machine logic. Each semicolon, each bracket, is a bridge between imagination and reality.
+                    </p>
+                </div>
+
+                <div class="writing-card">
+                    <div class="writing-date">December 10, 2024</div>
+                    <h3 class="writing-title">Late Night Debugging</h3>
+                    <p class="writing-content">
+                        2 AM. The bug that's been haunting my code for hours finally reveals itself—a single missing comma. In that moment of frustration and relief, I understand that programming is as much about patience and persistence as it is about logic and creativity.
+                    </p>
+                </div>
+
+                <div class="writing-card">
+                    <div class="writing-date">November 22, 2024</div>
+                    <h3 class="writing-title">Dreams in Binary</h3>
+                    <p class="writing-content">
+                        Sometimes I dream in algorithms. I see data flowing like rivers, AI models learning like curious children, and cybersecurity as digital knights protecting our virtual kingdoms. Technology isn't cold—it's alive with human intention and creativity.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">Let's Connect</h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <h3>Get In Touch</h3>
+                    <p>
+                        I'm always excited to connect with fellow tech enthusiasts, potential collaborators, or anyone who shares a passion for innovation. Whether you want to discuss a project idea, share learning resources, or just chat about the latest in AI and cybersecurity, I'd love to hear from you!
+                    </p>
+                    <div class="social-links">
+                        <a href="#" class="social-link" title="LinkedIn">
+                            <i class="fab fa-linkedin-in"></i>
+                        </a>
+                        <a href="#" class="social-link" title="GitHub">
+                            <i class="fab fa-github"></i>
+                        </a>
+                        <a href="#" class="social-link" title="Instagram">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                        <a href="#" class="social-link" title="Twitter">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                    </div>
+                    <a href="#" class="btn btn-primary">
+                        <i class="fas fa-download"></i>
+                        Download Resume
+                    </a>
+                </div>
+                <form class="contact-form">
+                    <div class="form-group">
+                        <label for="name">Your Name</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Your Email</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Your Message</label>
+                        <textarea id="message" name="message" required placeholder="Tell me about your ideas, questions, or just say hello!"></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">
+                        <i class="fas fa-paper-plane"></i>
+                        Send Message
+                    </button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 Piyush Raj. Built with passion and curiosity. 🚀</p>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
